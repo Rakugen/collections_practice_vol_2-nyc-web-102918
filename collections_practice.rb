@@ -80,7 +80,8 @@ def merge_data(struct1, struct2)
     temp_hash[key] = value
   end
 
-  temp_hash
+  temp_hash.flatten
+  
 end
 
 def find_cool(array)
