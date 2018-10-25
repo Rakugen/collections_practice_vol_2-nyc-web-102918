@@ -72,6 +72,7 @@ end
 def merge_data(struct1, struct2)
   temp_hash = {}
   temp_array = []
+  
 #  struct1.each do |key, value|
 #    if key.class == Hash
 #    end
@@ -80,7 +81,7 @@ def merge_data(struct1, struct2)
 #    temp_hash[key] = value
 #  end
 #  temp_hash
-  struct1.flatten.merge(struct2.flatten)
+
 
 end
 
