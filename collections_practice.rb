@@ -72,17 +72,16 @@ end
 def merge_data(struct1, struct2)
   temp_hash = {}
   temp_array = []
-#  struct1.each do |key, value|
-#    if key.class == Hash
-#    end
-#  end
-#  struct2.each do |key, value|
-#    temp_hash[key] = value
-#  end
-#  temp_hash
-  temp_array << struct1
-  temp_array << struct2
-  temp_array.flatten
+
+  struct1.each do |key, value|
+    if key.class == Hash
+    end
+  end
+  struct2.each do |key, value|
+    temp_hash[key] = value
+  end
+  temp_hash
+
 end
 
 def find_cool(array)
